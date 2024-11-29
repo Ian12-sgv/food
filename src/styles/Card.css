@@ -1,0 +1,238 @@
+.cards {
+  grid-template-rows: 1fr 1fr;
+  justify-content: space-between;
+  align-content: center;
+  box-sizing: border-box;
+  border-radius: 16px;
+  color: white;
+}
+.card {
+  padding: 2rem 2rem;
+  display: block;
+  height: 61%;
+  overflow: auto;
+  position: relative;
+  scrollbar-color: #252836 #252836;
+  background-color: #252836;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 60%;
+  gap: 7rem;
+}
+
+.card-content {
+  padding: 10px 30px;
+  margin: 15px;
+  width: 90%;
+  display: block;
+  text-align: center;
+  justify-content: center;
+  background-color: #1f1d2b;
+  border-radius: 5%;
+}
+
+.plato {
+  border-radius: 50%;
+  position: relative;
+  bottom: 3.5rem;
+  align-items: center;
+}
+
+.card-body {
+  width: 10rem;
+  height: 120px;
+  align-content: center;
+}
+
+p {
+  padding: 5px;
+  margin-bottom: 2px;
+  text-align: center;
+  align-content: center;
+
+  font-family: Barlow;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18.2px;
+  text-align: center;
+}
+
+.header-card {
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  padding-left: 1rem;
+  position: fixed;
+  overflow: hidden;
+  width: 65%;
+}
+.title {
+  margin-top: 2rem;
+  color: #ffffff;
+  font-family: Barlow;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  width: 70%;
+  margin-right: 10rem;
+}
+.dine {
+  padding-left: 15rem;
+
+  margin-right: 1rem;
+}
+.dine-select {
+  color: white;
+  background-color: #1f1d2b;
+  border: 1px solid #393c49;
+  display: block;
+  font-size: 16px;
+  font-family: "Arial", sans-serif;
+  color: white;
+  padding: 1rem 1rem;
+  direction: rtl;
+  box-sizing: border-box;
+  margin: 0;
+  border: 1px solid #393c49;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.page {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.8rem;
+}
+.hot {
+  text-decoration: none;
+
+  margin-right: 4rem;
+}
+.Cold {
+  margin-left: -5rem;
+  color: white;
+  text-decoration: none;
+
+  margin-right: 6rem;
+}
+.Soup {
+  margin-left: -5rem;
+  color: white;
+  text-decoration: none;
+
+  margin-right: 8rem;
+}
+.Grill {
+  margin-left: -5rem;
+  color: white;
+  text-decoration: none;
+
+  margin-right: 8rem;
+}
+.Appetizer {
+  margin-left: -5rem;
+  color: white;
+  text-decoration: none;
+
+  margin-right: 8rem;
+}
+.Dessert {
+  margin-left: -5rem;
+  color: white;
+  text-decoration: none;
+
+  margin-right: 10rem;
+}
+
+.User {
+  padding: 2rem 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.User-info {
+  width: 50%;
+  display: block;
+
+  justify-content: center;
+  align-items: center;
+}
+.name-user {
+  font-family: Barlow;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 18.2px;
+  text-align: left;
+  color: #ffffff;
+}
+.fecha {
+  margin-top: 1rem;
+  float: left;
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+}
+
+.search {
+  margin-left: 1rem;
+  width: 60%;
+
+  position: relative;
+}
+.search-input {
+  box-sizing: border-box;
+  background-color: #2d303e;
+  border: 1px solid #393c49;
+  padding: 15px 15px 15px 35px;
+  width: 100%;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  display: flex;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+.serch-icon {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 10px;
+  top: 30%;
+  transform: translateY(-50%);
+}
+.body-card {
+  padding-top: 13rem;
+}
+
+.encabezado-card {
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin-left: 3rem;
+  width: 94%;
+  border-top: #393c49 1px solid;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+}
+.encabezado-card-content {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.a {
+  color: white;
+}
+.a:active {
+  color: red;
+}

@@ -1,0 +1,43 @@
+body {
+  background-color: #252836;
+}
+
+.Datos_de_navegacion {
+  background-color: #1f1d2b;
+  border-radius: 16px;
+  height: 6.7rem;
+  align-items: center;
+  align-content: center;
+  position: fixed;
+  overflow: hidden;
+  z-index: 1;
+  width: 100%;
+  padding-top: 0rem;
+}
+
+.navbar {
+  align-items: center;
+}
+
+.menu-navegacion {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+.home {
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.mi-svg-unico {
+  padding: 1rem;
+}

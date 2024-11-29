@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.dashboard-titulo {
+  display: block;
+  padding: 2.5rem 0rem;
+  font-family: Barlow;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 39.2px;
+  text-align: left;
+  border-bottom: 1px solid #393c49;
+  padding-bottom: 2rem;
+  margin-left: 3.5rem;
+  margin-right: 3.5rem;
+  overflow: hidden;
+}
+
+.name-dashboard,
+.fecha-dashboard {
+  float: left;
+
+  margin-top: 1rem;
+}

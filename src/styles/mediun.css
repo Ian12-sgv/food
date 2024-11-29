@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.order-report-dashboard {
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+}
+.icon-name-dashboard {
+  display: flex;
+  margin-left: -2rem;
+}
+.icon-dashboard-mediun {
+  width: 3vw;
+}
+
+.name-dashboard-mediu {
+  width: 12vw;
+}
+
+.menu {
+  width: 8vw;
+  margin-left: -9rem;
+}
+.TotalPayment {
+  width: 4vw;
+}
+
+.status-dashboard-mediun {
+  width: 1vw;
+  float: right;
+  text-align: right;
+  margin-right: -4rem;
+}

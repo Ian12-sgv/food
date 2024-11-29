@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Settings {
+  padding: 4rem 1rem;
+  background-color: #252836;
+}
+
+.Settings-content {
+  padding: 2rem;
+}
+.Settings-content-completo {
+  background-color: #252836;
+  display: flex;
+  padding-left: 4rem;
+  overflow: hidden;
+}
+
+.Settings-title {
+  background-color: #252836;
+  padding: 1rem;
+  width: 95.9vw;
+  color: white;
+}
+
+.Settings-title-content {
+  padding: 2rem 4rem;
+}
+.settings-left {
+  background-color: #252836;
+  color: white;
+  width: 30vw;
+  padding: 1rem 1rem;
+}
+
+.settings-right {
+  background-color: #252836;
+  color: white;
+  width: 65vw;
+  padding: 1rem 1rem;
+}

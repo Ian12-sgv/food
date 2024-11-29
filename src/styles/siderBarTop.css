@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.siderbar-top {
+  background-color: #252836;
+  margin-top: 1.5rem;
+}
+
+.siderbar-top-content {
+  background-color: #1f1d2b;
+  padding: 0rem 1rem;
+  margin-right: 15rem;
+  border-radius: 8px;
+}
+.siderbar-top-header {
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  padding-top: 1rem;
+}
+
+.siderbar-Most {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15rem;
+  border-bottom: 1px solid #393c49;
+  padding-bottom: 1rem;
+}
+
+.siderbar-Today-arrow {
+  display: flex;
+}
+
+.siderBarTop-order {
+  display: flex;
+  align-items: center;
+  padding-left: -2rem;
+}
+
+.siderBarTop-platillo {
+  border-radius: 50%;
+  width: 53.88px;
+  height: 53.88px;
+  gap: 0px;
+  opacity: 0px;
+  margin-top: 3.5rem;
+  margin-right: 2rem;
+}
+.siderBarTop-nameEat {
+  display: block;
+  margin-left: 0rem;
+  margin-top: 3.5rem;
+}
+
+.siderbar-button {
+  margin-top: 5rem;
+  padding-left: 6rem;
+  padding-bottom: -1rem;
+}

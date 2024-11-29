@@ -1,0 +1,43 @@
+.ContentDashboard-container {
+  background-color: #252836;
+  padding: 0rem 3rem;
+}
+
+.ContentDashboard {
+  background-color: #1f1d2b;
+  padding: 2rem 2rem;
+  border-radius: 8px;
+}
+
+.titulo-dashboard-content {
+  background-color: #1f1d2b;
+  display: block;
+}
+
+.titulo-dashboard-content-2 {
+  margin-top: 1rem;
+  color: white;
+  padding: 1rem 1rem;
+}
+
+.content-container-dashboard {
+  color: #ffffff;
+  display: grid;
+
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  height: 40vh;
+}
+
+.contendero-contenido {
+  display: block;
+  padding-left: 2rem;
+  height: 43vh;
+  overflow: auto;
+  position: relative;
+  scrollbar-color: #1f1d2b #1f1d2b;
+}
+
+.Content_dashboard_mediu-1 {
+  margin-bottom: 3rem;
+  padding-left: 0rem;
+}
